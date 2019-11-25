@@ -98,7 +98,6 @@ export default function * root () {
     takeLatest(FeedChannelTypes.FEED_CHANNEL_UPDATE_REQUEST, updateFeedChannel, api),
     takeLatest(FeedChannelTypes.FEED_CHANNEL_DELETE_REQUEST, deleteFeedChannel, api),
     takeLatest(FeedChannelTypes.FEED_CHANNEL_SEARCH_REQUEST, searchFeedChannels, api),
-    // ignite-jhipster-saga-redux-connect-needle
 
     takeLatest(AccountTypes.ACCOUNT_REQUEST, getAccount, api),
     takeLatest(AccountTypes.ACCOUNT_UPDATE_REQUEST, updateAccount, api)
